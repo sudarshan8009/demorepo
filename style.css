@@ -1,0 +1,38 @@
+body{
+   background-color: red;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 10px;
+   
+}
+h1{
+   
+   font-size: 100px;
+   
+margin: 100px;
+padding: 10px;
+font-weight: 50px;
+   background-color: aqua;
+}
+h2{
+   background-color: blue;
+   font-size: 100px;
+   /* z-index: 999; */
+}
+h3{
+   background-color: green;
+   font-size: 100px;
+   position: absolute;
+   left:50%;
+   top: 50%;
+   /* transition: (-50%,-50%); */
+   
+
+}
+h4{
+   background-color: rgb(230, 0, 255);
+   font-size: 100px;
+   position: absolute;
+   top: 100%;
+}  
